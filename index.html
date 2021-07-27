@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta property="og:url" content="https://kathrynroberts-sc48.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Kathryn Roberts SC48" />
+    <meta
+      name="description"
+      content="Kathryn Roberts is running for the South Carolina House seat, District 48. I fight for the working class and believe corporate giants should pay their fair share. Let's bring back common sense and common decency."
+    />
+    <meta
+      property="og:description"
+      content="Kathryn Roberts is running for the South Carolina House seat, District 48"
+    />
+    <meta
+      property="og:image"
+      content="https://www.kathrynroberts-sc48.com/img/kate32.png"
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@roberts_48" />
+    <title>Kathryn Roberts SC48</title>
+    <link rel="icon" href="./img/favicon.png" sizes="16x16" />
+    <script
+      src="https://kit.fontawesome.com/734c30eefc.js"
+      crossorigin="anonymous"
+      async
+    ></script>
+    <script src="./js/index.js" async></script>
+
+    <link rel="stylesheet" rel="preload" href="main.css" />
+    <link rel="stylesheet" rel="preload" as="style" href="navbar.css" />
+  </head>
+  <body>
+    <p hidden></p>
+    <header class="header">
+      <div class="logo">
+        <img src="./img/kr-logo-32.png" alt="Kate for house seat 48" />
+        <span>Kathryn Roberts</span>
+      </div>
+      <nav>
+        <ul class="link-group">
+          <li>
+            <a class="btn a-link" href="#">About</a>
+          </li>
+          <li>
+            <a class="btn a-link" href="#">Issues</a>
+          </li>
+          <li>
+            <a class="btn a-link" href="#">Store</a>
+					</li>
+				</ul>
+				<div id="issues" class="social container">
+					<a
+						href="https://twitter.com/roberts_48"
+						target="_blank"
+						rel="noopener"
+					>
+						<i class="fab fa-twitter"></i>
+					</a>
+					<a
+						href="https://facebook.com/RobertsSC48"
+						target="_blank"
+						rel="noopener"
+					>
+						<i class="fab fa-facebook-square"></i>
+					</a>
+				</div>
+          <div>
+						<ul class="btn-group">
+							<li>
+								<a href="#"
+									><span class="btn a-link volunteer">Volunteer</span></a
+								>
+							</li>
+							<li>
+								<a
+									href="#"
+									><span class="btn a-link donate">Donate</span></a
+								>
+							</li>
+						</ul>
+          </div>
+        </ul>
+      </nav>
+    </header>
+    <main>
+			<section id="about" class="container about-section">
+        <div class="about jumbotron jumbotron-fluid">
+					<div class="about-wrapper">
+						<h3 class="about-subtitle">Vote for Kathryn</h3>
+						<div class="about-kate-img">
+							<img src="/img/Kate_150-T.png" alt="Kathryn Roberts"/>
+						</div>
+						<h1 class="about-title">Time to make a change for SC.</h1>
+						<form class="about-form">
+							<div class="form-top-row">
+								<label>
+									<input class="input" type="email" placeholder="Email">
+								</label>
+								<label>
+									<input class="input input-zip" id="zip" name="zip" placeholder="Zip" type="text" inputmode="numeric" pattern="^\d{5}(-\d{4})?$">
+								</label>
+							</div>
+							<div class="form-bottom-row">
+								<label>
+									<input class="input" type="tel" placeholder="Phone">
+								</label>
+								<button class="btn form-btn">Join</button>
+							</div>
+						</form>
+					</div>
+          <div class="about-img">
+          </div>
+        </div>
+      </section>
+
+      <section class="hero-main top-hero py-2">
+        <div class="jumbotron jumbotron-fluid hero">
+          
+          <div class="container layer">
+            <div class="left">
+              <h1 class="display-4">
+                <span class="char-underline">E</span>lection
+                <i class="fas fa-democrat"></i>
+              </h1>
+              <p class="strong head-title">
+                Time is ticking! The next election is in your hands. As
+                republicans push to change election laws to support the big lie
+                and take the vote back, you can still rise above! Casting a vote
+                is your right, no matter your color or finances!
+              </p>
+              <hr class="my-4" />
+            </div>
+            <div class="right">
+              <h2 class="clock-title">Countdown Clock</h2>
+              <h4 class="clock-date">Jan 20, 2024</h4>
+              <div id="clockdiv">
+                <div>
+                  <span class="days" id="day" width="70px"></span>
+                  <div class="smalltext">Days</div>
+                </div>
+                <div>
+                  <span class="hours" id="hour" width="60px"></span>
+                  <div class="smalltext">Hrs</div>
+                </div>
+                <div>
+                  <span class="minutes" id="minute" width="60px"></span>
+                  <div class="smalltext">Min</div>
+                </div>
+                <div>
+                  <span class="seconds" id="second" width="60px"></span>
+                  <div class="smalltext">Sec</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Cards -->
+          <div class="container my-4">
+            <div class="card-deck my-1">
+              <div class="card">
+                <div class="video">
+                  <img
+                    class="vid-img"
+                    src="img/education.webp"
+                    alt="education"
+                  />
+                </div>
+                <div class="card-body d-flex justify-content-center">
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-modal btn-card"
+                    data-toggle="modal"
+                    data-target="#educationModal"
+                  >
+                    Education
+                  </button>
+                </div>
+                <div class="card-footer">
+                  <small class="d-flex justify-content-center icons"
+                    ><i class="far fa-star"></i>&nbsp &nbsp<i
+                      class="fas fa-star blue fa-lg"
+                    ></i
+                    >&nbsp &nbsp<i class="far fa-star"></i
+                  ></small>
+                </div>
+              </div>
+              <!-- Modal -->
+              <div
+                class="modal fade py-2"
+                id="educationModal"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="EducationModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">
+                        Education
+                      </h5>
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <ul class="pl-2">
+                        <li>Equitable funding for public schools</li>
+                        <li>
+                          Minimum yearly salary for teachers, no less than 50K
+                        </li>
+                        <li>Expand collective bargaining rights</li>
+                        <li>Teacher Tenure</li>
+                        <li>No out-of-pocket expenses for supplies</li>
+                        <li>
+                          Free, universal school meals and incentives for
+                          locally sourced food
+                        </li>
+                        <li>
+                          School safety including protecting students from
+                          harassment, discrimination, and violence
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-primary btn-card"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="video">
+                  <img
+                    class="vid-img"
+                    src="img/money.webp"
+                    alt="minimum wage"
+                  />
+                </div>
+                <div class="card-body d-flex justify-content-center">
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-modal btn-card"
+                    data-toggle="modal"
+                    data-target="#minWageModal"
+                  >
+                    Minimum Wage
+                  </button>
+                </div>
+                <div class="card-footer">
+                  <small class="d-flex justify-content-center icons"
+                    ><i class="far fa-star"></i>&nbsp &nbsp<i
+                      class="fas fa-star blue fa-lg"
+                    ></i
+                    >&nbsp &nbsp<i class="far fa-star"></i
+                  ></small>
+                </div>
+              </div>
+              <!-- Modal -->
+              <div
+                class="modal fade py-2"
+                id="minWageModal"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="MinWageModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="MinWageModalLabel">
+                        Minimum Wage
+                      </h5>
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p>
+                        The state minimum wage won't reach $12 / hour until 2022
+                        <a
+                          href="https://www.scstatehouse.gov/sess123_2019-2020/bills/3395.htm"
+                          target="_blank"
+                          rel="noopener"
+                          >House Bill (H 3395) -
+                        </a>
+                        According to
+                        <a
+                          href="https://livingwage.mit.edu/states/45"
+                          target="_blank"
+                          rel="noopener"
+                          >MIT</a
+                        >, in today's economy:
+                      </p>
+                      <ul class="pl-2">
+                        <li>
+                          1 Adult with no children needs to earn $11.76 / hr
+                          right now to make a living wage
+                        </li>
+                        <li>
+                          2 Adults, 1 working, with 2 children need to earn
+                          $25.61 / hr right now to make a living wage
+                        </li>
+                      </ul>
+                      <p>
+                        We should have a minimum wage of $15 / hr now that keeps
+                        pace with the consumer price index and increases as the
+                        cost of living increases
+                      </p>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-primary btn-card"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="video">
+                  <img class="vid-img" src="img/covid19.webp" alt="covid 19" />
+                </div>
+                <div class="card-body d-flex justify-content-center">
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-modal btn-card"
+                    data-toggle="modal"
+                    data-target="#healthModal"
+                  >
+                    Healthcare
+                  </button>
+                </div>
+                <div class="card-footer">
+                  <small class="d-flex justify-content-center icons"
+                    ><i class="far fa-star"></i>&nbsp &nbsp<i
+                      class="fas fa-star blue fa-lg"
+                    ></i
+                    >&nbsp &nbsp<i class="far fa-star"></i
+                  ></small>
+                </div>
+              </div>
+              <!-- Modal -->
+              <div
+                class="modal fade py-2"
+                id="healthModal"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="HealthModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">
+                        Healthcare
+                      </h5>
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <ul class="pl-2">
+                        <li>
+                          Expand state medicaid coverage to include dental,
+                          hearing, vision, and long-term care. Mental health and
+                          substance abuse treatment, reproductive and maternity
+                          care, prescription drugs and more
+                        </li>
+                        <li>
+                          Provide citizen access to outsourcing prescriptions
+                          from Canada
+                        </li>
+                        <li>
+                          Legalizing medical marijuana for all conditions where
+                          the medical community has shown that it is effective
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-primary btn-card"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+
+      <section class="actBlue pb-1 my-1">
+        <div class="container act-layer">
+					<div>
+						<img
+						src="./img/Kate_300.webp"
+						width="300"
+						alt="Kathryn Roberts"
+					/>
+					</div>
+					<div>
+          <h4>Stop the insanity!</h4>
+            <p>
+              I am running for the state seat of the house of representatives,
+              district 48, South Carolina. I am an average citizen who has
+              always had an interest in politics, but I became very concerned
+              with the direction our country is heading after the 2016 election.
+            </p>
+
+            <p>
+              There are many reasons why I finally decided to run for office but
+              three of the main issues that concern me the most are income
+              inequality, healthcare, and education.
+            </p>
+
+            <p>
+              Over the coming months, I look forward to learning from the people
+              of my district and hearing about the issues that affect your
+              family. I have created this site so we may come together as a
+              community, get to know each other a little better, and discuss
+              issues important to our community. Together we can make a
+              difference and start to implement common sense reforms that are
+              more in line with our community values.
+            </p>
+						<span class="act-info">
+							<div class="card-body d-flex justify-content-center">
+								<button
+									type="button"
+									class="btn btn-primary btn-modal btn-card"
+									data-toggle="modal"
+									data-target="#aboutKate"
+								>
+									Learn More
+								</button>
+							</div>
+							<!-- <h3>
+								<a
+								href="/about.html"
+								target="_blank"
+								rel="noopener"
+								>Learn More
+								</a>
+						</h3> -->
+						</span>
+						<div
+                class="modal fade py-2"
+                id="aboutKate"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="About Kathryn"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="aboutKatelabel">
+                        Kathryn Roberts
+                      </h5>
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+											<p>
+												I grew up in the Midwest and moved to South Carolina in 2015 with
+												my family. My husband grew up in Charlotte and his parents live in
+												Clover, SC. My parents are both passed away and we wanted our
+												children to have grandparents in their lives, so we made the
+												decision to move. It was a bit of a culture shock to be surrounded
+												by the kindness of southern hospitality when we first moved. Since
+												then, I have grown to love the people, culture, and natural beauty
+												of the area we now call home.
+											</p>
+											<p>
+												I honestly believe in the concept that all men are created equal.
+												As I have grown older, the divide between the rich and powerful
+												and the hourly workers has become more extreme. They are the ones
+												with all the rights while the marginalized and essential workers,
+												that truly make our country run, are cast aside. No one who works full-time
+												should have to worry about putting food on their table.
+											</p>
+											<p>
+												I am also passionate about the education system in our state,
+												especially since I have three children who all attend public
+												school. It is imperative that our children are given every
+												opportunity to thrive and succeed in their learning. A
+												well-rounded education should not be one that simply teaches to
+												pass a test. It must give children the chance to express
+												themselves through creativity and the arts as well as science and
+												math.
+											</p>
+											<p>
+												Healthcare is a human right. Full stop. We are the only
+												industrialized nation in the world to not offer full healthcare to
+												its citizens. The number of people who are forced to file
+												bankruptcy ever year is staggering. One of the worst decisions
+												ever made was to allow businesses to profit off healthcare. I will
+												be first in line to sign my name to any legislation that provides
+												universal healthcare to all citizens without lining the pockets of
+												CEOs and shareholders first.
+											</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-primary btn-card"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+					</div>
+        </div>
+      </section>
+    </main>
+    <footer class="">
+      <div class="footer container">
+
+        <div class="footer-one">
+					<div class="footer-main">
+						<h2 class="footer-title">Kathryn</h2>
+						<img src="img/kr-logo-32.png" alt="Vote Kathryn Roberts"/>
+						<h2 class="footer-title">Roberts</h2>
+					</div>
+          <div class="foot-social">
+            <a
+              href="https://twitter.com/roberts_48"
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a
+              href="https://facebook.com/RobertsSC48"
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="fab fa-facebook-square"></i>
+            </a>
+          </div>
+          <br />
+          <small
+            ><h6 class="copy">
+              &copy; copyright 2020. All rights reserved.
+            </h6></small
+          >
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+  
