@@ -85,19 +85,17 @@ nav {
   background: #fdffb6;
   padding: 0.5em;
   color: black;
-  border-radius: 3px 0 0 3px;
-  border: 1px solid #777;
+  border: 2px solid rgb(212, 212, 212);
 }
 
 .donate {
   background: #ffadad;
   padding: 0.5em;
-  border-radius: 0 3px 3px 0;
-  border: 1px solid #777;
+  border: 2px solid rgb(212, 212, 212);
 }
 
 .donate:hover {
-  color: white;
+  color: red;
 }
 
 .nav-toggle {
