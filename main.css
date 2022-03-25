@@ -717,8 +717,8 @@ strong {
 
 /* footer section */
 footer {
-  background-color: #4182c5;
-  color: white;
+  background-color: white;
+  color: #4182c5;
 }
 
 .footer {
@@ -765,7 +765,8 @@ footer {
 }
 
 .foot-social i {
-  color: white;
+  font-size: 22px;
+  color: #4182c5;
   padding: 10px;
 }
 
@@ -793,7 +794,7 @@ input {
   margin-top: 5px;
   padding-left: 10px;
 }
-/***********************************media 1***********************************************/
+/***************************media 1************************/
 @media screen and (max-width: 1000px) {
   .modal-dialog {
     position: relative;
