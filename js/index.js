@@ -1,4 +1,5 @@
-/* countdown clock */
+/* countdown clock 
+** w3 school reference */
 const deadline = new Date('jan 20, 2024 12:00:00').getTime();
 
 function addZero(n) {
@@ -27,7 +28,10 @@ const x = setInterval(function () {
   }
 }, 1000);
 
-/* Hide Navbar scroll */
+/* Hide Navbar scroll
+** This code is left for future work to the site.
+** On scroll it hides the navigation, but leaves the bar and logo. */
+
 // const nav = document.querySelector('nav')
 // const navLabel = document.querySelector('label')
 // const heroMain = document.querySelector('.hero-main')
